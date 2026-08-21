@@ -59,7 +59,7 @@ let checkRecursively = (
     return isExist;
 };
 
-var exist = function(board, word) {
+var exist = function (board, word) {
 
     let visited = board.map(row => row.map(() => 0));
 
