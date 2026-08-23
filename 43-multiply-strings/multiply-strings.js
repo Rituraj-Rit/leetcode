@@ -3,7 +3,7 @@
  * @param {string} num2
  * @return {string}
  */
-var multiply = function(num1, num2) {
+var multiply = function (num1, num2) {
     if (num1 === "0" || num2 === "0") return "0";
 
     let result = new Array(num1.length + num2.length).fill(0);
