@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {boolean}
  */
-var isPowerOfFour = function(n) {
+var isPowerOfFour = function (n) {
     if (n <= 0) return false;
 
     // n should be a power of 2
