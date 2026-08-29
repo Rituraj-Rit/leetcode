@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isNumber = function(s) {
+var isNumber = function (s) {
     s = s.trim();
 
     let hasDigit = false;
@@ -27,7 +27,6 @@ var isNumber = function(s) {
             if (hasDot || hasE) {
                 return false;
             }
-
             hasDot = true;
         }
 
@@ -36,7 +35,6 @@ var isNumber = function(s) {
             if (hasE || !hasDigit) {
                 return false;
             }
-
             hasE = true;
             digitAfterE = false;
         }
