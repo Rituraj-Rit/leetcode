@@ -10,7 +10,7 @@
  * @param {number} k
  * @return {ListNode}
  */
-var rotateRight = function(head, k) {
+var rotateRight = function (head, k) {
     if (!head || !head.next || k === 0) {
         return head;
     }
