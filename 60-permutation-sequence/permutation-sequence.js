@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {string}
  */
-var getPermutation = function(n, k) {
+var getPermutation = function (n, k) {
     let nums = [];
 
     // 1 to n numbers
@@ -12,7 +12,7 @@ var getPermutation = function(n, k) {
     }
 
     let result = "";
-    k--; 
+    k--;
 
     for (let i = n; i >= 1; i--) {
         let factorial = 1;
