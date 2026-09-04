@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {string}
  */
-var largestNumber = function(nums) {
+var largestNumber = function (nums) {
     nums = nums.map(String);
 
     nums.sort((a, b) => {
