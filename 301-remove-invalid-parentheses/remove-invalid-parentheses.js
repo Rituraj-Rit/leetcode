@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {string[]}
  */
-var removeInvalidParentheses = function(s) {
+var removeInvalidParentheses = function (s) {
     let queue = [s];
     let visited = new Set([s]);
     let result = [];
