@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxProduct = function(nums) {
+var maxProduct = function (nums) {
     let max = nums[0];
     let min = nums[0];
     let result = nums[0];
