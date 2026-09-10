@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {boolean}
  */
-var search = function(nums, target) {
+var search = function (nums, target) {
     let low = 0;
     let high = nums.length - 1;
 
