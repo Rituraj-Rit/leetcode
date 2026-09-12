@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortedSquares = function(nums) {
+var sortedSquares = function (nums) {
     let n = nums.length;
     let result = new Array(n);
     let left = 0;
