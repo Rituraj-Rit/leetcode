@@ -10,7 +10,7 @@
  * @param {number[]} nums
  * @return {TreeNode}
  */
-var sortedArrayToBST = function(nums) {
+var sortedArrayToBST = function (nums) {
     function buildTree(left, right) {
         if (left > right) {
             return null;
