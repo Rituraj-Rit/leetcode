@@ -2,7 +2,7 @@
  * @param {character[]} chars
  * @return {number}
  */
-var compress = function(chars) {
+var compress = function (chars) {
     let write = 0;
     let i = 0;
 
