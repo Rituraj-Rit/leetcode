@@ -3,11 +3,10 @@
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = function(nums1, nums2) {
+var findMedianSortedArrays = function (nums1, nums2) {
     if (nums1.length > nums2.length) {
         return findMedianSortedArrays(nums2, nums1);
     }
-
     let n1 = nums1.length;
     let n2 = nums2.length;
 
