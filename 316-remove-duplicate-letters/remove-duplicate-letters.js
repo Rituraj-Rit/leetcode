@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {string}
  */
-var removeDuplicateLetters = function(s) {
+var removeDuplicateLetters = function (s) {
     let stack = [];
     let count = {};
 
