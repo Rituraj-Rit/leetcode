@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-var smallestRangeI = function(nums, k) {
+var smallestRangeI = function (nums, k) {
     let min = Math.min(...nums);
     let max = Math.max(...nums);
 
