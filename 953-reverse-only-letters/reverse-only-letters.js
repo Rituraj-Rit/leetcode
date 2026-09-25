@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {string}
  */
-var reverseOnlyLetters = function(s) {
+var reverseOnlyLetters = function (s) {
     let arr = s.split("");
     let i = 0;
     let j = arr.length - 1;
