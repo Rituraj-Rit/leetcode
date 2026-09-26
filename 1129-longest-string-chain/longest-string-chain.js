@@ -2,7 +2,7 @@
  * @param {string[]} words
  * @return {number}
  */
-var longestStrChain = function(words) {
+var longestStrChain = function (words) {
     words.sort((a, b) => a.length - b.length);
 
     let dp = new Map();
