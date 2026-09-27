@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {string}
  */
-var reverseStr = function(s, k) {
+var reverseStr = function (s, k) {
     let arr = s.split("");
 
     function reverse(left, right) {
